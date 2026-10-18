@@ -1,12 +1,31 @@
 {
     "_readme": "Read by RCG_terminal (rcg_version.lua) on start and every few hours. A server whose installed version (fxmanifest.lua) is older than 'latest' prints the newer releases in its console. 'releases' = newest first; severity = important | recommended | optional; 'why' = one line on why it matters.",
-    "latest": "1.0.0",
+    "latest": "1.0.2",
     "releases": [
+        {
+            "version": "1.0.2",
+            "date": "2026-10-18",
+            "severity": "important",
+            "why": "On ESX with envi-bridge every charge went to the worker and none to the company.",
+            "notes": [
+                "Fixed: players seen as off duty when envi-bridge is installed (ESX). Automatic, keep your config.lua",
+                "New example open/integrations/examples/origen_police.lua (police duty from the tablet)",
+                "Update notice in the server console (this message)"
+            ],
+            "url": "https://portal.cfx.re/assets/granted-assets"
+        },
+        {
+            "version": "1.0.1",
+            "severity": "optional",
+            "notes": [
+                "Support Discord link updated. No code changes"
+            ]
+        },
         {
             "version": "1.0.0",
             "severity": "optional",
             "notes": [
-                "Current release"
+                "First release"
             ]
         }
     ]
