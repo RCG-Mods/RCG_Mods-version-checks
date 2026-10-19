@@ -1,7 +1,15 @@
 {
     "_readme": "Read by RCG_trickortreat (rcg_version.lua) on start and every few hours. A server whose installed version (fxmanifest.lua) is older than 'latest' prints the newer releases in its console. 'releases' = newest first; severity = important | recommended | optional; 'why' = one line on why it matters.",
-    "latest": "0.1.0",
+    "latest": "1.0.0",
     "releases": [
+        {
+            "version": "1.0.0",
+            "date": "2026-10-19",
+            "severity": "optional",
+            "notes": [
+                "First release on Tebex"
+            ]
+        },
         {
             "version": "0.1.0",
             "severity": "optional",
